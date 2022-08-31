@@ -5,17 +5,14 @@
 body {
   @apply overflow-hidden !important;
 }
-
 .link {
   @apply bg-bg-secondary text-hover p-2 text-lg rounded-lg cursor-pointer w-[45px] h-[45px] text-center relative !important;
 }
-
 .link.active {
   @apply text-main !important;
 }
-
 .div {
-  @apply flex justify-center items-center flex-col cursor-pointer relative overflow-hidden;
+  @apply flex justify-center items-center flex-row sm:flex-col cursor-pointer relative overflow-hidden m-3;
 }
 .text {
   @apply text-bg-color uppercase text-sm;
@@ -23,7 +20,6 @@ body {
 .div:hover .text-head {
   @apply left-0 right-0;
 }
-
 .text-head {
-  @apply text-main uppercase text-sm absolute -left-20 bottom-0 transition-all;
+  @apply text-main uppercase text-sm ml-2 sm:ml-0 sm:absolute sm:-left-20 sm:bottom-0 transition-all;
 }

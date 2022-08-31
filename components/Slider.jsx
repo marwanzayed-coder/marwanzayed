@@ -1,16 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useState } from "react";
 import Logo from "../public/favicon.png";
 
 const Slider = () => {
   let url = useRouter().route;
+  let [show, setShow] = useState(false);
   return (
     <div className="slider transition-all h-17 w-full bg-bg-color text-white p-4 flex justify-between items-center fixed left-0 top-0">
       <div>
         <Image src={Logo} alt="Logo" width={45} height={45}></Image>
       </div>
-      <div className="flex justify-center items-center flex-row gap-10">
+      <div
+        className={`flex flex-col ${
+          show ? "top-[83px]" : "-top-80"
+        } transition-all left-0 w-full items-start sm:top-0 bg-bg-color sm:justify-center sm:items-center sm:flex-row sm:gap-10 absolute sm:relative`}
+      >
         <Link href="/">
           <div className="div">
             <i
@@ -35,11 +41,11 @@ const Slider = () => {
             <h3 className="text">About</h3>
           </div>
         </Link>
-        <Link href="/work">
+        <Link href="/works">
           <div className="div">
             <i
               className={
-                url !== "/work"
+                url !== "/works"
                   ? "fas fa-laptop-code link"
                   : "fas fa-laptop-code link active"
               }
@@ -62,7 +68,12 @@ const Slider = () => {
           </div>
         </Link>
       </div>
-      <div></div>
+      <div>
+        <i
+          className="fa-solid fa-bars-staggered text-xl cursor-pointer sm:hidden"
+          onClick={() => setShow(!show)}
+        />
+      </div>
     </div>
   );
 };

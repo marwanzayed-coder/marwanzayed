@@ -15,7 +15,11 @@ export default function Document() {
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.svg" />
-        <meta name="description" content="Marwan Zayed portfolio" />
+        <meta
+          name="description"
+          content="I'm Marwan Zayed and I work in the field of MERN Stack, I'm
+            looking forward to improving myself every day."
+        />
       </Head>
       <body>
         <Main />
