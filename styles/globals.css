@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   @apply overflow-hidden !important;
-}
+} */
 .link {
   @apply bg-bg-secondary text-hover p-2 text-lg rounded-lg cursor-pointer w-[45px] h-[45px] text-center relative !important;
 }
@@ -20,6 +20,16 @@ body {
 .div:hover .text-head {
   @apply left-0 right-0;
 }
+.link.active ~ .text {
+  @apply font-bold;
+}
+.link.active ~ .text-head {
+  @apply text-main font-bold;
+}
 .text-head {
-  @apply text-main uppercase text-sm ml-2 sm:ml-0 sm:absolute sm:-left-20 sm:bottom-0 transition-all;
+  @apply text-hover uppercase text-sm ml-2 sm:ml-0 sm:absolute sm:-left-20 sm:bottom-0 transition-all;
+}
+
+.Typewriter {
+  @apply inline-block;
 }
