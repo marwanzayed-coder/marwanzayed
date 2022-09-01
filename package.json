@@ -1,6 +1,6 @@
 {
   "name": "marwanzayed",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "next": "12.2.5",
+    "nodemailer": "^6.7.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sparkpost": "^2.1.4",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
