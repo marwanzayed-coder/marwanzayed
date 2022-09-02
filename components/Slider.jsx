@@ -54,7 +54,7 @@ const Slider = () => {
             <h3 className="text">Works</h3>
           </div>
         </Link>
-        {/* <Link href="/contact">
+        <Link href="/contact">
           <div className="div">
             <i
               className={
@@ -66,7 +66,7 @@ const Slider = () => {
             <h3 className="text-head">Contact</h3>
             <h3 className="text">Contact</h3>
           </div>
-        </Link> */}
+        </Link>
       </div>
       <div>
         <i
