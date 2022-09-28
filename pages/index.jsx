@@ -1,16 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import GIF_Img from "../public/sammy-service-support.gif";
+import Img from "../public/welcome.gif";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Marwan Zayed</title>
-        {/* <script
-          src="//code.tidio.co/29kwc19yrdlylprfhzeyl527holw5og4.js"
-          async
-        ></script> */}
       </Head>
       <div className="grid grid-cols-1 sm:grid-cols-2 h-[100vh]">
         <div className="m-auto">
@@ -24,7 +20,7 @@ export default function Home() {
           </p>
         </div>
         <div className="m-auto">
-          <Image src={GIF_Img} alt="Hello"></Image>
+          <Image src={Img} alt="Hello"></Image>
         </div>
       </div>
     </div>

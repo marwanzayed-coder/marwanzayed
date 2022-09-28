@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://marwan.gq/
+
+# Sitemaps
+Sitemap: https://marwan.gq/sitemap.xml
