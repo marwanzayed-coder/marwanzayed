@@ -4,11 +4,11 @@ export default function Content() {
   return (
     <div className="mt-[125px]">
       <Head>
-        <title>Content | Marwan Zayed</title>
+        <title>Contact | Marwan Zayed</title>
       </Head>
       <div className="container text-center">
         <h2 className="text-3xl m-5 text-main border-b-2 inline-block border-main border-dashed">
-          Content
+          Contact 
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 p-3 gap-8">
           <div className="bg-[#0d8af0] rounded-tr-[120px] rounded-bl-[120px] rounded-tl-[20px] rounded-br-[20px]">
