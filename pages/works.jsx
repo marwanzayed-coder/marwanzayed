@@ -24,13 +24,13 @@ export default function Work() {
             <h3 className="text-xl my-2">
               <TypeWriter
                 onInit={(typewriter) => {
-                  typewriter.typeString("Book Site").start();
+                  typewriter.typeString("Khaled Ehab Portfolio").start();
                 }}
               />
             </h3>
             <div className="flex items-center justify-center">
               <a
-                href="https://book-site-marwan.herokuapp.com/"
+                href="https://khaledehab.ml/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ export default function Work() {
                 </div>
               </a>
               <a
-                href="https://github.com/marwanzayed-coder/Book-Site"
+                href="https://github.com/marwanzayed-coder/khaledEhab"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,65 +54,20 @@ export default function Work() {
             </div>
           </div>
           <div className="bg-bg-color rounded-tr-[120px] rounded-bl-[120px] rounded-tl-[20px] rounded-br-[20px] text-white p-5">
+            <h3 className="text-xl my-2">
+              <TypeWriter
+                onInit={(typewriter) => {
+                  typewriter.typeString("My Blog").start();
+                }}
+              />
+            </h3>
+            <span className="text-hover uppercase text-sm">Soon</span>
+          </div>
+           <div className="bg-bg-color rounded-tr-[120px] rounded-bl-[120px] rounded-tl-[20px] rounded-br-[20px] text-white p-5">
             <h3 className="text-xl my-2">
               <TypeWriter
                 onInit={(typewriter) => {
                   typewriter.typeString("Quran Web").start();
-                }}
-              />
-            </h3>
-            <div className="flex items-center justify-center">
-              <a
-                href="https://quranweb.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="div">
-                  <i className="fas fa-desktop link" />
-                  <h3 className="text-head">Live</h3>
-                  <h3 className="text">Live</h3>
-                </div>
-              </a>
-              <a
-                href="https://github.com/marwanzayed-coder/quran"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="div">
-                  <i className="fa-brands fa-github-alt link" />
-                  <h3 className="text-head">Code</h3>
-                  <h3 className="text">Code</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="bg-bg-color rounded-tr-[120px] rounded-bl-[120px] rounded-tl-[20px] rounded-br-[20px] text-white p-5">
-            <h3 className="text-xl my-2">
-              <TypeWriter
-                onInit={(typewriter) => {
-                  typewriter.typeString("Quran Extension").start();
-                }}
-              />
-            </h3>
-            <div className="flex items-center justify-center">
-              <a
-                href="https://github.com/marwanzayed-coder/quran-extension"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="div">
-                  <i className="fa-brands fa-github-alt link" />
-                  <h3 className="text-head">Code</h3>
-                  <h3 className="text">Code</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="bg-bg-color rounded-tr-[120px] rounded-bl-[120px] rounded-tl-[20px] rounded-br-[20px] text-white p-5">
-            <h3 className="text-xl my-2">
-              <TypeWriter
-                onInit={(typewriter) => {
-                  typewriter.typeString("Chater").start();
                 }}
               />
             </h3>
