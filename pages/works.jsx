@@ -61,8 +61,30 @@ export default function Work() {
                 }}
               />
             </h3>
-            <span className="text-hover uppercase text-sm">Soon</span>
-          </div>
+            <div className="flex items-center justify-center">
+              <a
+                href="https://araaciit.gq/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="div">
+                  <i className="fas fa-desktop link" />
+                  <h3 className="text-head">Live</h3>
+                  <h3 className="text">Live</h3>
+                </div>
+              </a>
+              <a
+                href="https://github.com/marwanzayed-coder/marwan-blog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="div">
+                  <i className="fa-brands fa-github-alt link" />
+                  <h3 className="text-head">Code</h3>
+                  <h3 className="text">Code</h3>
+                </div>
+              </a>
+            </div>          </div>
            <div className="bg-bg-color rounded-tr-[120px] rounded-bl-[120px] rounded-tl-[20px] rounded-br-[20px] text-white p-5">
             <h3 className="text-xl my-2">
               <TypeWriter
